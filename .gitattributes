@@ -1,0 +1,4 @@
+.gitignore text eol=lf
+Cargo.lock text eol=lf
+*.toml text eol=lf
+src\*.rs text eol=lf
