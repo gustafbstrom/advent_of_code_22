@@ -1,6 +1,7 @@
 mod dec1;
 mod dec2;
 mod dec3;
+mod dec4;
 
 fn main() {
     match dec1::solution1("dec1_input.txt") {
@@ -26,6 +27,15 @@ fn main() {
         Err(msg) => println!("{}", msg),
     }
     match dec3::solution2("dec3_input.txt") {
+        Ok(val) => println!("{}", val),
+        Err(msg) => println!("{}", msg),
+    }
+    
+    match dec4::solution1("dec4_input.txt") {
+        Ok(val) => println!("{}", val),
+        Err(msg) => println!("{}", msg),
+    }
+    match dec4::solution2("dec4_input.txt") {
         Ok(val) => println!("{}", val),
         Err(msg) => println!("{}", msg),
     }
